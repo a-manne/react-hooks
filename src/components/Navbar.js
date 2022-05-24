@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="nav">
             <div className="container">
                 <Link to=''>
-                    <h2>React Gram</h2>
+                    <h2>Web Gram</h2>
                 </Link>
             </div>
         </div>
