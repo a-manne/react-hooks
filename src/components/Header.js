@@ -10,7 +10,7 @@ const Header = () => {
                 <p className='btn' style={{textAlign : 'center'}}>Add Post</p>
             </Link>
             <div className='home'>
-                <div>React Gram</div>
+                <div>Web Gram</div>
             </div>
         </>
     );
