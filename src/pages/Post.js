@@ -8,7 +8,6 @@ import Navbar from "../components/Navbar";
 const Post = () => {
     const globalContext = useContext(GlobalContext);
     const {
-        loading,
         getPostById,
         currentBlogPost
     } = globalContext;
@@ -19,7 +18,6 @@ const Post = () => {
         getPostById(postId);
     }, []);
 
-   // console.log(postId)
     return (
         <>
             <Navbar />

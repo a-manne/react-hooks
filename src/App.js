@@ -21,7 +21,6 @@ function App() {
             <Route path='/' exact component={Home} />
             <Route path='/newPost' exact component={NewPost} />
             <Route path='/:postId' exact component={Post} />
-           
           </Switch>
         </Router>
       </div>
